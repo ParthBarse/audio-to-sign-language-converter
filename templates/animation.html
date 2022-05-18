@@ -11,7 +11,7 @@
 					<input type="text" name="sen" class="mytext" id="speechToText" placeholder="">
 					<button type="button" name="button" class="mic" onclick="record()"><img src="{% static 'mic3.png' %}" height="32px" width="38px" /></button>
 		  			&nbsp&nbsp&nbsp&nbsp
-		  			<input type="submit" name="submit" class="submit">
+		  			<input type="submit" name="submit" class="submit" style="font-family: 'Poppins', sans-serif;">
 
 		</form>
 		<br>
@@ -35,7 +35,7 @@
   <h2 align="center">Sign Language Animation</h2>
 
 	<div style="text-align:center">	&nbsp&nbsp
-  	<button class="submit" onclick="playPause()">Play/Pause</button>
+  	<button class="submit" onclick="playPause()" style="font-family: 'Poppins', sans-serif;">Play/Pause</button>
   	<!--  LETS USE ONLY PLAY PAUSE BUTTON WITH 720 *420 ,IT FITS THE SCREEN ASHISH
 
   	<button onclick="makeBig()">Big</button>
@@ -92,7 +92,7 @@
 
 		function myHandler()
 		{
-	 		document.getElementById("list").getElementsByTagName("li")[i].style.color = "#feda6a";
+	 		document.getElementById("list").getElementsByTagName("li")[i].style.color = "#3d3d3d";
 			document.getElementById("list").getElementsByTagName("li")[i].style.fontSize = "20px";
 			i++;
 	    	if (i == videoCount)
